@@ -8,6 +8,6 @@ use Laravel\Lumen\Routing\Controller as BaseController;
 class PruebaController extends BaseController
 {
     public function index(Request $request){
-    	return response()->json("saludo:prueba");
+        return response()->json("Saludo:prueba");
     }
 }

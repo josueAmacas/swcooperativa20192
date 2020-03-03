@@ -2,14 +2,12 @@
 
 namespace App\Http\Helper;
 
-Class ResponseBuilder{
-
-	public static function result($status="",$info="",$data=""){
-		return[
-			"success" => $status,
-			"information"=>$info,
-			"data"=>$data,
-		];
-	}
+class ResponseBuilder{
+    public static function result($status="",$info="",$data=""){
+        return [
+            "succes"=>$status,
+            "informacion"=>$info,
+            "data"=>$data,
+        ];
+    }
 }
-?>
